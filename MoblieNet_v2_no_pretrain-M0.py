@@ -126,6 +126,7 @@ print(' '.join('%5s' % classes[labels[j]] for j in range(8)))
 
 # In[6]:
 
+# The below MobileNet source code is from https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/mobilenet_v2.py
 
 def _make_divisible(v, divisor, min_value=None):
     """
